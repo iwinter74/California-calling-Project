@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'LarishNeue';
+    src: url(../../Lev3_9_Project_css-vertiefung_california-calling-font/LarishNeueSemibold.woff);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'larishNeue';
+}
+#intro {
+    padding: 10% 5%;
+    background: black;
+    color: white
+}
+#intro div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+}
+#intro h1, #intro p {
+    width: 50%;
+    text-align: center;
+}
+#intro p {
+    font-size: 0.8em;
+}
+#intro h1 {
+    font-size: 4em;
+    line-height: 80%;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em
+}
+#intro span {
+    color: black;
+    -webkit-text-stroke: 1px white;
+}
+#intro footer {
+    display: flex;
+    justify-content: space-between;
+}
+#intro footer a, #last a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 1em 2em;
+    font-size: 0.8em
+}
+#history {
+    padding-top: 10%;
+    background: black;
+    color: white
+}
+#map {
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white
+}
+#map img {
+    width: 40%
+}
+#history h1 {
+    font-size: 5em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#history h1:first-of-type {
+    margin-bottom: 10%;
+}
+#history p {
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 10%;
+}
+#actions {
+    background: white;
+    height: 200vh;
+    position: relative;
+}
+#actions img {
+    width: 20%
+}
+#action1 {
+    position: absolute;
+    right: 10%;
+    top: -5%
+}
+#action2 {
+    position: absolute;
+    left: 10%;
+    top: 15%
+}
+#action-text {
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    color: black;
+    width: 25%
+}
+#actions h1 {
+    font-size: 3em;
+    margin-bottom: 0.3em;
+}
+#actions p {
+    font-size: 0.8em;
+}
+#action3 {
+    position: absolute;
+    right: 3%;
+    top: 40%
+}
+#action4 {
+    position: absolute;
+    left: 20%;
+    top: 50%
+}
+#action5 {
+    position: absolute;
+    right: 15%;
+    top: 60%
+}
+#action6 {
+    position: absolute;
+    left: 3%;
+    top: 75%
+}
+#actions>p {
+    position: absolute;
+    color: black;
+    left: 30%;
+    top: 77%;
+    width: 30%;
+    line-height: 150%;
+}
+#action7 {
+    position: absolute;
+    right: 20%;
+    bottom: -5%;
+    z-index: 1
+}
+#golden-bear{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    height: 100vh;
+    background: black;
+    color: white;
+}
+.div1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10%;
+    margin-top: 3%;
+}
+.bear-text p {
+    padding-left: 40%;
+    font-size: 1em;
+}
+.bear-text p:last-of-type {
+    font-size: 0.8em;
+    padding-top: 1em
+}
+#golden-bear header p, #poppy-bear header p, #last header p {
+    font-size: 0.8em
+}
+#golden-bear h1, #poppy-bear h1 {
+    font-size: 4em
+}
+#bear-images img:first-of-type{
+    position: absolute;
+    bottom: -20%;
+    width: 50%
+}
+#bear-images img:nth-of-type(2) {
+    position: absolute;
+    bottom: -10%;
+    right: 30%;
+    width: 25%;
+    height: 50%
+}
+#bear-images img:last-of-type {
+    position: absolute;
+    left: 75%;
+    top: 80%;
+    width: 40%;
+}
+#poppy-bear {
+    height: 120vh;
+    background: white;
+    color: black;
+    padding-top: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 10%;
+}
+#roses {
+    position: relative;
+    height: 60vh
+}
+#roses img:first-of-type {
+    position: absolute;
+    width: 50%;
+    right: 10%;
+}
+#roses img:last-of-type {
+    position: absolute;
+    width: 25%;
+    left: 20%;
+    top: 10%
+}
+#last {
+    background: black;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%
+}
+#last p {
+    font-size: 1.2em;
+    line-height: 200%;
+    padding-bottom: 5%
+}
+#last header p {
+    font-size: 0.8em;
+    padding-bottom: 1em
+}
+#last div {
+    width: 50%
+}
+footer {
+    background: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a img {
+    width: 80%
+}
+ul {
+    display: flex;
+}
+footer li {
+    list-style: none;
+}
+footer div img {
+    width: 40%
+}
+footer div {
+    padding-left: 50em
+}
+/* Font: WorkSans, LarishNeue
+Farbe: #fff / #000 */
